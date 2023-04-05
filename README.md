@@ -6,7 +6,7 @@
     </a>
 </div>
 <div align="center">
-      <img alt="Version" src="https://img.shields.io/badge/version-v1.0.0--SNAPSHOT-blue.svg?cacheSeconds=2592000" />
+      <img alt="Version" src="https://img.shields.io/badge/version-v1.0.0--SNAPSHOT-blue.svg?style=for-the-badge&cacheSeconds=2592000" />
     <a target="_blank" href="https://discord.gg/WhackDevelopment">
         <img src="https://img.shields.io/discord/1075538521340776489?style=for-the-badge&logo=discord">
     </a>
