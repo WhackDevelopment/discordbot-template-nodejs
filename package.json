@@ -1,0 +1,46 @@
+{
+    "name": "discordbot-template-nodejs",
+    "version": "1.0.0-SNAPSHOT",
+    "description": " a discord bot template for nodejs - discord.js version - latest ",
+    "main": "bot.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon bot",
+        "prettier": "npx prettier --write .",
+        "licenseCheck": "license-check-and-add check -f ./licenseConfig.json",
+        "license": "license-check-and-add add -f ./licenseConfig.json"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/WhackDevelopment/discordbot-template-nodejs.git"
+    },
+    "keywords": [
+        "discordbot",
+        "discord",
+        "bot",
+        "template",
+        "nodejs",
+        "node-discord-bot"
+    ],
+    "author": "WhackDevelopment",
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/WhackDevelopment/discordbot-template-nodejs/issues"
+    },
+    "homepage": "https://github.com/WhackDevelopment/discordbot-template-nodejs#readme",
+    "devDependencies": {
+        "license-check-and-add": "^4.0.5",
+        "nodemon": "^2.0.22",
+        "prettier": "^2.8.7"
+    },
+    "dependencies": {
+        "@discordjs/rest": "^1.6.0",
+        "discord-api-types": "^0.37.37",
+        "discord.js": "^14.8.0",
+        "dotenv": "^16.0.3",
+        "is-valid-domain": "^0.1.6",
+        "mongoose": "^7.0.3",
+        "node-fetch": "^3.3.1",
+        "string-similarity": "^4.0.4"
+    }
+}
