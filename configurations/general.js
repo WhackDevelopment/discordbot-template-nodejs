@@ -33,7 +33,7 @@
 // clientId                 - is the ID of the bot client used for authentication and authorization
 // owner                    - is the ID of the bot owner
 module.exports = {
-    messageCommandPrefix: '!',
+    prefix: '!',
     defaultLanguage: 'en_us',
     testGuildId: '1075538521340776489',
     clientId: '1091431333336723588',

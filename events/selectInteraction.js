@@ -29,10 +29,7 @@
 module.exports = {
     name: 'interactionCreate',
 
-    async execute(interaction) {
-        // Deconstructed client from interaction object.
-        const { client } = interaction;
-
+    async execute(interaction, client) {
         // Checks if the interaction is a select menu interaction (to prevent weird bugs)
 
         if (!interaction.isAnySelectMenu()) return;
