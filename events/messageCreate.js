@@ -39,7 +39,7 @@ const escapeRegex = (string) => {
 module.exports = {
     name: 'messageCreate',
 
-    async execute(message) {
+    async execute(message, client) {
         // Declares const to be used.
 
         const { guild, channel, content, author } = message;
